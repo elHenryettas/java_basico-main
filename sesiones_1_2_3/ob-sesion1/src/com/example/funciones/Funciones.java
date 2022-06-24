@@ -38,6 +38,8 @@ public class Funciones {
 
         double price = getPrice();
         System.out.println(price);
+        String iva = precioIva(price);
+        System.out.println(iva);
 
         // opcion 3:
         // funcion con parametros y sin tipo de retorno
@@ -67,6 +69,9 @@ public class Funciones {
         System.out.println("Buenas tardes " + nombre);
     }
 
-
+    static String precioIva(double precio){
+        double total = precio + precio /100 * 12;
+        return "Precio mas IVA de 12% es: " + total;
+    }
 
 }
