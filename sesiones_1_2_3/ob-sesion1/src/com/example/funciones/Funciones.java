@@ -1,5 +1,7 @@
 package com.example.funciones;
 
+import javax.annotation.processing.Generated;
+
 /**
  * Crear una funcion que reciba un precio y devuelva el precio con el IVA incluido
  */
@@ -73,5 +75,5 @@ public class Funciones {
         double total = precio + precio /100 * 12;
         return "Precio mas IVA de 12% es: " + total;
     }
-
+    
 }
