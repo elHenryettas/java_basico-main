@@ -7,7 +7,6 @@ import poo.herencia.Motocicleta;
 public class Main {
 
     public static void main(String[] args) {
-
         // 1. clases y objetos
         // Clase identificador = new Clase();
         Vehiculo toyotaPrius = new Vehiculo();
@@ -17,9 +16,9 @@ public class Main {
 
         System.out.println(fordMondeo.fabricante);
         System.out.println(fordMondeo.year);
-        System.out.println(fordMondeo.speed); // 0
+        System.out.println(fordMondeo.speed);
         fordMondeo.acelerar(50);
-        System.out.println(fordMondeo.speed); // 50
+        System.out.println(fordMondeo.speed);// 50
 
         // 2. herencia
         Motocicleta kawasakiNinja = new Motocicleta();
